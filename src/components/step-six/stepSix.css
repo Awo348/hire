@@ -1,0 +1,663 @@
+.candidate-sign-up-step-23 .candidate-sign-up-step-23-child {
+  position: absolute;
+  top: 1784px;
+  left: 432px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 719px;
+  height: 37px;
+}
+.candidate-sign-up-step-23 .group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .reason-for-leaving {
+  position: absolute;
+  top: 1px;
+  left: 15px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .group-item,
+.candidate-sign-up-step-23 .rectangle-parent {
+  position: absolute;
+  top: 1780px;
+  left: 73px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .group-item {
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 180px;
+  height: 87px;
+}
+.candidate-sign-up-step-23 .group-inner {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  width: 149px;
+  height: 59px;
+}
+.candidate-sign-up-step-23 .menu {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .group-child1,
+.candidate-sign-up-step-23 .group-child2,
+.candidate-sign-up-step-23 .rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 30px;
+  height: 2px;
+}
+.candidate-sign-up-step-23 .group-child1,
+.candidate-sign-up-step-23 .group-child2 {
+  top: 5px;
+}
+.candidate-sign-up-step-23 .group-child2 {
+  top: 10px;
+}
+.candidate-sign-up-step-23 .rectangle-container,
+.candidate-sign-up-step-23 .rectangle-group {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  width: 30px;
+  height: 12px;
+}
+.candidate-sign-up-step-23 .rectangle-group {
+  top: 0;
+  left: 1260px;
+  width: 180px;
+  height: 87px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.candidate-sign-up-step-23 .click-here {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 120%;
+  font-weight: 800;
+}
+.candidate-sign-up-step-23 .button {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.candidate-sign-up-step-23 .button,
+.candidate-sign-up-step-23 .button-parent,
+.candidate-sign-up-step-23 .button1 {
+  position: absolute;
+  height: 66px;
+}
+.candidate-sign-up-step-23 .button1 {
+  top: 0;
+  left: 370px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 279px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.candidate-sign-up-step-23 .button-parent {
+  top: 2321px;
+  left: 386px;
+  width: 649px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+.candidate-sign-up-step-23 .group-child3,
+.candidate-sign-up-step-23 .rectangle-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 28px;
+  height: 24px;
+}
+.candidate-sign-up-step-23 .group-child3 {
+  top: 1px;
+  left: 36px;
+  background-color: #c93f3c;
+  width: 273px;
+  height: 28px;
+}
+.add-another-certificate {
+  position: absolute;
+  top: 0;
+  left: 85px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .vector-parent {
+  position: absolute;
+  top: 2112px;
+  left: 88px;
+  width: 309px;
+  height: 32px;
+  font-size: 15px;
+  color: var(--color-white);
+}
+.candidate-sign-up-step-23 .group-child4 {
+  position: absolute;
+  top: 0;
+  left: 114.78px;
+  width: 235.01px;
+  height: 210.5px;
+}
+.candidate-sign-up-step-23 .employment-history {
+  margin: 0;
+}
+.candidate-sign-up-step-23 .step-4-employment-container {
+  position: absolute;
+  top: 60.39px;
+  left: 132.29px;
+  font-weight: 900;
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.candidate-sign-up-step-23 .ellipse-div {
+  position: absolute;
+  top: 42.89px;
+  left: 3.63px;
+  border-radius: 50%;
+  background-color: #c0504e;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 126.91px;
+  height: 123.41px;
+}
+.candidate-sign-up-step-23 .register-candidate {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  color: var(--color-white);
+  display: inline-block;
+  width: 131.29px;
+  height: 44.64px;
+}
+.candidate-sign-up-step-23 .vector-group {
+  position: absolute;
+  top: 57px;
+  left: 499px;
+  width: 349.79px;
+  height: 210.5px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-lato);
+}
+.candidate-sign-up-step-23 .group-child5,
+.candidate-sign-up-step-23 .group-child6,
+.candidate-sign-up-step-23 .group-child7,
+.candidate-sign-up-step-23 .group-child8,
+.candidate-sign-up-step-23 .group-child9 {
+  position: absolute;
+  top: 461px;
+  left: 1165px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 44px;
+  height: 37px;
+}
+.candidate-sign-up-step-23 .group-child6,
+.candidate-sign-up-step-23 .group-child7,
+.candidate-sign-up-step-23 .group-child8,
+.candidate-sign-up-step-23 .group-child9 {
+  top: 16px;
+  left: 388px;
+}
+.candidate-sign-up-step-23 .group-child7,
+.candidate-sign-up-step-23 .group-child8,
+.candidate-sign-up-step-23 .group-child9 {
+  top: 461px;
+  left: 524px;
+}
+.candidate-sign-up-step-23 .group-child8,
+.candidate-sign-up-step-23 .group-child9 {
+  left: 748px;
+}
+.candidate-sign-up-step-23 .group-child9 {
+  left: 941px;
+}
+.candidate-sign-up-step-23 .group-child10 {
+  position: absolute;
+  top: 0.48px;
+  left: 0;
+  background-color: var(--color-tan);
+  width: 357px;
+  height: 62.52px;
+}
+.candidate-sign-up-step-23 .no-employment-history {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-weight: 600;
+  display: inline-block;
+  width: 343px;
+  height: 65px;
+}
+.candidate-sign-up-step-23 .rectangle-parent2,
+.candidate-sign-up-step-23 .rectangle-parent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 357px;
+  height: 65px;
+  font-size: var(--font-size-9xl);
+}
+.candidate-sign-up-step-23 .rectangle-parent3 {
+  top: 93px;
+}
+.candidate-sign-up-step-23 .group-child12,
+.candidate-sign-up-step-23 .group-child13,
+.candidate-sign-up-step-23 .group-child14,
+.candidate-sign-up-step-23 .group-child15,
+.candidate-sign-up-step-23 .group-child16 {
+  position: absolute;
+  top: 405px;
+  left: 364px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 719px;
+  height: 37px;
+}
+.candidate-sign-up-step-23 .group-child13,
+.candidate-sign-up-step-23 .group-child14,
+.candidate-sign-up-step-23 .group-child15,
+.candidate-sign-up-step-23 .group-child16 {
+  top: 516px;
+  left: 367px;
+  height: 188px;
+}
+.candidate-sign-up-step-23 .group-child14,
+.candidate-sign-up-step-23 .group-child15,
+.candidate-sign-up-step-23 .group-child16 {
+  top: 186px;
+  left: 357px;
+  width: 720px;
+  height: 42px;
+}
+.candidate-sign-up-step-23 .group-child15,
+.candidate-sign-up-step-23 .group-child16 {
+  top: 239px;
+}
+.candidate-sign-up-step-23 .group-child16 {
+  top: 292px;
+  left: 363px;
+}
+.duties {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .rectangle-parent4,
+.candidate-sign-up-step-23 .rectangle-parent5 {
+  position: absolute;
+  top: 516px;
+  left: 4px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent5 {
+  top: 458px;
+}
+.candidate-sign-up-step-23 .group-child21,
+.candidate-sign-up-step-23 .rectangle-parent6,
+.candidate-sign-up-step-23 .rectangle-parent7 {
+  position: absolute;
+  top: 293px;
+  left: 4px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .group-child21,
+.candidate-sign-up-step-23 .rectangle-parent7 {
+  top: 347px;
+}
+.candidate-sign-up-step-23 .group-child21 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 171px;
+}
+.candidate-sign-up-step-23 .rectangle-parent8,
+.candidate-sign-up-step-23 .rectangle-parent9 {
+  position: absolute;
+  top: 347px;
+  left: 621px;
+  width: 171px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent9 {
+  top: 233px;
+  left: 4px;
+  width: 341px;
+}
+.candidate-sign-up-step-23 .group-child25,
+.candidate-sign-up-step-23 .rectangle-parent10,
+.candidate-sign-up-step-23 .rectangle-parent11 {
+  position: absolute;
+  top: 183px;
+  left: 3px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .group-child25,
+.candidate-sign-up-step-23 .rectangle-parent11 {
+  top: 402px;
+  left: 4px;
+}
+.candidate-sign-up-step-23 .group-child25 {
+  top: 1px;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 154px;
+}
+.candidate-sign-up-step-23 .rectangle-parent12 {
+  position: absolute;
+  top: 456px;
+  left: 363px;
+  width: 154px;
+  height: 44px;
+}
+.temporary {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .group-child27,
+.candidate-sign-up-step-23 .rectangle-parent13 {
+  position: absolute;
+  top: 459px;
+  left: 583px;
+  width: 154px;
+  height: 44px;
+}
+.candidate-sign-up-step-23 .group-child27 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-antiquewhite);
+  width: 131px;
+  height: 43px;
+}
+.trainee {
+  position: absolute;
+  top: 1px;
+  left: 27px;
+  font-weight: 600;
+}
+.candidate-sign-up-step-23 .rectangle-parent14 {
+  position: absolute;
+  top: 460px;
+  left: 802px;
+  width: 131px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .group-child29,
+.candidate-sign-up-step-23 .rectangle-parent15 {
+  position: absolute;
+  top: 459px;
+  left: 1000px;
+  width: 134px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .group-child29 {
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 140px;
+  height: 37px;
+}
+.monthyear {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-weight: 100;
+}
+.candidate-sign-up-step-23 .rectangle-parent16,
+.candidate-sign-up-step-23 .rectangle-parent17 {
+  position: absolute;
+  top: 347px;
+  left: 802px;
+  width: 140px;
+  height: 42px;
+}
+.candidate-sign-up-step-23 .rectangle-parent17 {
+  top: 345px;
+  left: 370px;
+}
+.candidate-sign-up-step-23 .group-div,
+.candidate-sign-up-step-23 .rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1134px;
+  height: 704px;
+}
+.candidate-sign-up-step-23 .group-div {
+  top: 346px;
+  left: 51px;
+  width: 1209px;
+}
+.candidate-sign-up-step-23 .group-child31,
+.candidate-sign-up-step-23 .group-child32,
+.candidate-sign-up-step-23 .group-child33,
+.candidate-sign-up-step-23 .group-child34,
+.candidate-sign-up-step-23 .group-child36,
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  position: absolute;
+  top: 368px;
+  left: 1165px;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 44px;
+  height: 37px;
+}
+.candidate-sign-up-step-23 .group-child32,
+.candidate-sign-up-step-23 .group-child33,
+.candidate-sign-up-step-23 .group-child34,
+.candidate-sign-up-step-23 .group-child36,
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  left: 524px;
+}
+.candidate-sign-up-step-23 .group-child33,
+.candidate-sign-up-step-23 .group-child34,
+.candidate-sign-up-step-23 .group-child36,
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  left: 748px;
+}
+.candidate-sign-up-step-23 .group-child34,
+.candidate-sign-up-step-23 .group-child36,
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  left: 941px;
+}
+.candidate-sign-up-step-23 .group-child36,
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  top: 312px;
+  left: 364px;
+  width: 719px;
+}
+.candidate-sign-up-step-23 .group-child37,
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  top: 500px;
+  left: 367px;
+  height: 188px;
+}
+.candidate-sign-up-step-23 .group-child38,
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  top: 93px;
+  left: 363px;
+  width: 720px;
+  height: 42px;
+}
+.candidate-sign-up-step-23 .group-child39,
+.candidate-sign-up-step-23 .group-child40 {
+  top: 146px;
+}
+.candidate-sign-up-step-23 .group-child40 {
+  top: 199px;
+}
+.candidate-sign-up-step-23 .rectangle-parent21,
+.candidate-sign-up-step-23 .rectangle-parent22 {
+  position: absolute;
+  top: 500px;
+  left: 4px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent22 {
+  top: 365px;
+}
+.candidate-sign-up-step-23 .rectangle-parent23,
+.candidate-sign-up-step-23 .rectangle-parent24,
+.candidate-sign-up-step-23 .rectangle-parent25 {
+  position: absolute;
+  top: 200px;
+  left: 4px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent24,
+.candidate-sign-up-step-23 .rectangle-parent25 {
+  top: 254px;
+}
+.candidate-sign-up-step-23 .rectangle-parent25 {
+  top: 256px;
+  left: 546px;
+  width: 171px;
+}
+.candidate-sign-up-step-23 .rectangle-parent26,
+.candidate-sign-up-step-23 .rectangle-parent27,
+.candidate-sign-up-step-23 .rectangle-parent28 {
+  position: absolute;
+  top: 140px;
+  left: 4px;
+  width: 341px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent27,
+.candidate-sign-up-step-23 .rectangle-parent28 {
+  top: 90px;
+  left: 3px;
+}
+.candidate-sign-up-step-23 .rectangle-parent28 {
+  top: 309px;
+  left: 4px;
+}
+.candidate-sign-up-step-23 .rectangle-parent29,
+.candidate-sign-up-step-23 .rectangle-parent30 {
+  position: absolute;
+  top: 363px;
+  left: 363px;
+  width: 154px;
+  height: 44px;
+}
+.candidate-sign-up-step-23 .rectangle-parent30 {
+  top: 366px;
+  left: 583px;
+}
+.candidate-sign-up-step-23 .rectangle-parent31,
+.candidate-sign-up-step-23 .rectangle-parent32 {
+  position: absolute;
+  top: 367px;
+  left: 802px;
+  width: 131px;
+  height: 43px;
+}
+.candidate-sign-up-step-23 .rectangle-parent32 {
+  top: 366px;
+  left: 1000px;
+  width: 134px;
+}
+.candidate-sign-up-step-23 .rectangle-parent33,
+.candidate-sign-up-step-23 .rectangle-parent34 {
+  position: absolute;
+  top: 257px;
+  left: 739px;
+  width: 140px;
+  height: 42px;
+}
+.candidate-sign-up-step-23 .rectangle-parent34 {
+  top: 252px;
+  left: 367px;
+}
+.candidate-sign-up-step-23 .rectangle-parent18,
+.candidate-sign-up-step-23 .rectangle-parent19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1134px;
+  height: 688px;
+}
+.candidate-sign-up-step-23 .rectangle-parent18 {
+  top: 1352px;
+  left: 69px;
+  width: 1209px;
+}
+.candidate-sign-up-step-23 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: #daedf4;
+  /* border: 2px solid rgba(20, 20, 20, 0.1); */
+  box-sizing: border-box;
+  width: 100%;
+  height: 2033px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans-arabic);
+}

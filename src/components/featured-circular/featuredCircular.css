@@ -1,0 +1,26 @@
+.featured-circular-container {
+  width: 81%;
+  margin: 0px auto;
+}
+
+.featured-circular-container > h2 {
+  color: #000;
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.featured-circular-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.featured-circular-single {
+  width: 23%;
+}

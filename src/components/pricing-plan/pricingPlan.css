@@ -1,0 +1,135 @@
+.pricing-plan-container {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.pricing-plan-header {
+  background: #f18425;
+  width: 79%;
+  margin: 0px auto;
+  padding: 28px 0px 67px;
+}
+
+.pricing-plan-header h2 {
+  color: #002;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.pricing-plan-header div {
+  width: fit-content;
+  margin: 10px auto 0px;
+}
+
+.pricing-plan-table {
+  width: 76%;
+  margin: 60px auto;
+}
+
+.pricing-table-head,
+.pricing-table-single {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background: #4f81bc;
+}
+
+.pricing-table-single {
+  background-color: unset;
+}
+
+.pricing-table-head div,
+.pricing-table-single div {
+  border-left: 4px solid white;
+  height: inherit;
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+
+.pricing-table-single div {
+  padding-top: 0px;
+}
+
+.pricing-table-head div:first-child,
+.pricing-table-single div:first-child {
+  width: 10%;
+  border-left: none;
+}
+
+.pricing-table-head div:nth-child(2),
+.pricing-table-head div:nth-child(3),
+.pricing-table-head div:nth-child(4),
+.pricing-table-head div:nth-child(5),
+.pricing-table-head div:nth-child(6),
+.pricing-table-single div:nth-child(2),
+.pricing-table-single div:nth-child(3),
+.pricing-table-single div:nth-child(4),
+.pricing-table-single div:nth-child(5),
+.pricing-table-single div:nth-child(6) {
+  width: 18%;
+}
+
+.pricing-table-head div p {
+  color: #fff;
+  padding: 34px 33px 28px 40px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricing-table-head div:nth-child(4) p {
+  padding: 17px 33px 19px 40px;
+}
+
+.pricing-table-single div p {
+  text-align: center;
+  padding: 16px 0px 8px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricing-table-single .green {
+  background: #92d14f;
+}
+
+.pricing-table-single .onions {
+  background: #e6b8b8;
+}
+
+.pricing-table-single .orange {
+  background: #e36c08;
+}
+
+.pricing-table-single .black {
+  background: #000;
+}
+
+.pricing-table-single .red {
+  background: #c00000;
+}
+
+.pricing-table-single .red p {
+  color: white;
+}
+
+.pricing-table-single .yellow {
+  background: #ffd600;
+}
+
+.pricing-table-body {
+  margin: 0px;
+}
+
+.pricing-table-body .pricing-table-single:nth-child(2n) {
+  border: 1px solid #000;
+  /* opacity: 0.25; */
+  background: #f5f5f5;
+}
