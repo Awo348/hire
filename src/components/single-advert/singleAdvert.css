@@ -12,6 +12,7 @@
   background: #3c76bc;
   padding: 10px 0px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .single-advert-position p {
