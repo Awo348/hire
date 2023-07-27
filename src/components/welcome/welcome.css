@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: flex-start;
 }
 
 .welcome-nav {
@@ -180,4 +181,61 @@
   font-style: normal;
   font-weight: 700;
   line-height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .welcome-nav {
+    gap: 15px;
+  }
+
+  .welcome-place,
+  .welcome-advert,
+  .welcome-type {
+    width: 95%;
+  }
+
+  .welcome-place img {
+    width: 100%;
+  }
+
+  .welcome-advert-search {
+    flex-direction: column;
+  }
+
+  .welcome-advert-search input,
+  .welcome-advert-search button {
+    width: 100%;
+  }
+
+  .welcome-advert-search input {
+    padding: 20px;
+  }
+
+  .subscribe-wrapper {
+    width: 95%;
+    flex-direction: column;
+    left: 2%;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .subscribe-wrapper h2 {
+    font-size: 24px;
+  }
+
+  .subscribe-wrapper div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome-nav a {
+    font-size: 16px;
+  }
 }

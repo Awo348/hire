@@ -24,3 +24,19 @@
 .featured-circular-single {
   width: 23%;
 }
+
+@media screen and (max-width: 600px) {
+  .featured-circular-container,
+  .featured-circular-single {
+    width: 100%;
+  }
+
+  .featured-circular-container > h2 {
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+
+  .featured-circular-wrapper {
+    flex-direction: column;
+  }
+}

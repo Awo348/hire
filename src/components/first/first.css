@@ -34,3 +34,22 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .first-container {
+    flex-direction: column;
+    align-items: unset;
+    gap: 50px;
+  }
+
+  .first-text,
+  .first-img,
+  .first-text div {
+    width: 100%;
+    justify-content: unset;
+  }
+
+  .first-text div {
+    text-align: center;
+  }
+}

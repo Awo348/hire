@@ -39,3 +39,20 @@
   font-weight: 500;
   line-height: normal;
 }
+
+@media screen and (max-width: 600px) {
+  .profilling-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .profilling-img,
+  .profilling-img img {
+    width: 100%;
+  }
+
+  .profilling-text {
+    text-align: center;
+  }
+}

@@ -52,3 +52,27 @@
   background: #4540db;
   color: white;
 }
+
+.header-menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    width: 100%;
+    justify-content: unset;
+  }
+
+  .header-wrapper,
+  .header-nav-links,
+  .header-buttons {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .header-menu {
+    display: block;
+  }
+}

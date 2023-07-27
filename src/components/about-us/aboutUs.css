@@ -126,3 +126,24 @@
 .about-us-points span {
   margin: 0px 4px 0px 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .aboutus-container {
+    margin: 20px auto;
+  }
+
+  .aboutus-banner {
+    flex-direction: column;
+    align-items: unset;
+    width: 100%;
+  }
+
+  .aboutus-banner-img,
+  .aboutus-banner-text {
+    width: 100%;
+  }
+
+  .aboutus-banner-text h2 {
+    font-size: 40px;
+  }
+}

@@ -24,3 +24,15 @@
   gap: 100px;
   margin: 100px 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .works-container {
+    width: 90%;
+  }
+
+  .works-wrapper {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
