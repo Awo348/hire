@@ -23,6 +23,7 @@
   border: 5px solid #385d87;
   background: #fff;
   width: 391px;
+  box-sizing: border-box;
 }
 
 .personal-details-form.full input {
@@ -58,4 +59,28 @@
 .personal-details-phone div input {
   width: 100%;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .personal-details-cont {
+    margin-top: 20px;
+  }
+
+  .personal-details-form,
+  .personal-details-phone,
+  .personal-details-status,
+  .personal-details-phone div {
+    flex-direction: column;
+    width: 100%;
+    align-items: unset;
+  }
+
+  .personal-details-form input,
+  .personal-details-form.full input {
+    width: 100%;
+  }
+
+  .personal-details-phone div input {
+    margin-left: 0px;
+  }
 }

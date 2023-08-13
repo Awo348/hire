@@ -145,3 +145,18 @@
   font-weight: 600;
   line-height: normal;
 }
+
+@media screen and (max-width: 600px) {
+  .primary-education {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .secondary-edu-type,
+  .secondary-edu-grades,
+  .hsc-subjects {
+    gap: 20px;
+    flex-direction: column;
+  }
+}

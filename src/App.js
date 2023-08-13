@@ -8,6 +8,8 @@ import AdminPageOne from "./pages/admin/admin-page1/adminPage1";
 // import AdminPageTwo from "./pages/admin/admin-page2/adminPage2";
 // import AdminPageThree from "./pages/admin/admin-page3/adminPage3";
 import Register from "./pages/register/register";
+import Advertise from "./pages/advertise/advertise";
+import Works from "./pages/works/works";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/admin" element={<AdminPageOne />} />
+        <Route path="/advertise" element={<Advertise />} />
+        <Route path="/works" element={<Works />} />
       </Routes>
     </div>
   );

@@ -1,74 +1,103 @@
 import React from "react";
 import "./welcome.css";
-import Logo from "../../assets/home-logo.png";
-import Place from "../../assets/place.png";
 import Type from "../../assets/jobs-types.png";
-import { NavLink } from "react-router-dom";
 import Layout from "../../utils/layout/layout";
-import { advert } from "../../utils/data/data";
-import SingleAdvert from "../single-advert/singleAdvert";
-import MoreJobs from "../more-jobs/moreJobs";
+import Recruit from "../../assets/recruiting.png";
+import Jobs from "../../assets/job.svg";
+import Companies from "../../assets/companies.svg";
+import Candidates from "../../assets/candidates.svg";
+import Search from "../../assets/search-icon.svg";
 import FeaturedCircular from "../featured-circular/featuredCircular";
-import Profilling from "../profilling/profilling";
+import Header from "../header/header";
+import ManySolution from "../many-solution/manySolution";
+import Footer from "../footer/footer";
+import Subscribe from "../subscribe/subscribe";
+import Animation from "../animation/animation";
+import { industries } from "../../utils/data/data";
 
 const Welcome = () => {
   return (
     <>
       <Layout>
+        <Header />
         <div className="welcome-container">
-          <div className="welcome-header">
-            <div className="welcome-logo">
-              <img src={Logo} alt="logog" />
+          <div className="welcome-banner">
+            <div className="welcome-place">
+              <h2>One million success job stories.</h2>
+              <span>
+                <Animation text="Start yours today." delay={300} />
+              </span>
             </div>
-            <div className="welcome-nav">
-              <NavLink to="/vacancies">Vacanies</NavLink>
-              <NavLink to="/career">Career Advice</NavLink>
-              <NavLink to="/about">About us</NavLink>
-              <NavLink to="/advertise">Advertise</NavLink>
-            </div>
-            <div className="welcome-shapes">
-              <div className="rectangle"></div>
-              <div className="two-rectangle">
-                <div className="rectangle"></div>
-                <div className="rectangle"></div>
+            <div className="welcome-advert">
+              <div className="welcome-advert-text">
+                <div className="welcome-advert-search">
+                  <div className="welcome-advert-input">
+                    <input type="text" placeholder="Enter Skills or job title" />
+                  </div>
+                  <div className="welcome-advert-select">
+                    <select name="" id="">
+                      <option value="">Select Functional Area</option>
+                    </select>
+                  </div>
+                  <div className="welcome-advert-button">
+                    <img src={Search} alt="search" />
+                  </div>
+                </div>
+                <div className="welcome-advert-popular">
+                  <h2>Popular Industries</h2>
+                  <div className="welcome-advert-industries">
+                    {industries?.map((item, index) => {
+                      return <p key={index}>{item}</p>;
+                    })}
+                  </div>
+                </div>
+                <div className="welcome-advert-number">
+                  <div className="welcome-advert-single">
+                    <div className="welcome-advert-circle">
+                      <img src={Jobs} alt="Jobs" />
+                    </div>
+                    <div>
+                      <h2>19</h2>
+                      <p>Active Jobs</p>
+                    </div>
+                  </div>
+                  <div className="welcome-advert-single">
+                    <div className="welcome-advert-circle">
+                      <img src={Companies} alt="Companies" />
+                    </div>
+                    <div>
+                      <h2>15</h2>
+                      <p>Active Companies</p>
+                    </div>
+                  </div>
+                  <div className="welcome-advert-single">
+                    <div className="welcome-advert-circle">
+                      <img src={Candidates} alt="Candidates" />
+                    </div>
+                    <div>
+                      <h2>5</h2>
+                      <p>Candidates</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="oval"></div>
+              <img src={Recruit} alt="recruit" />
             </div>
           </div>
-          <div className="welcome-place">
-            <img src={Place} alt="place" />
-          </div>
-          <div className="welcome-advert">
-            {advert?.map((item, index) => {
-              return <SingleAdvert position={item} key={index} />;
-            })}
-            <div className="welcome-advert-search">
-              <input type="text" placeholder="Search all recent Adverts" />
-              <button>Register</button>
-            </div>
-          </div>
-          <MoreJobs />
+          <ManySolution />
+          {/* <MoreJobs /> */}
           <div className="welcome-type">
             <img src={Type} alt="type" />
           </div>
           <FeaturedCircular />
-          <Profilling />
+          {/* <Profilling /> */}
         </div>
       </Layout>
-      <div className="subscribe-container">
-        <div className="subscribe-wrapper">
-          <h2>
-            Never Want to Miss <br /> Any <span>Job News?</span>
-          </h2>
-          <div>
-            {/* <input type="text"  /> */}
-            <button>Subscribe</button>
-          </div>
-        </div>
-      </div>
-      <div className="welcome-footer">
+      <Subscribe />
+      {/* <div className="welcome-footer">
         <h2>CopyRight Hireme.mu</h2>
-      </div>
+      </div> */}
+      <Footer />
     </>
   );
 };

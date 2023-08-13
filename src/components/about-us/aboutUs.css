@@ -1,6 +1,6 @@
 .aboutus-container {
   width: 92%;
-  margin: 150px auto 88px;
+  margin: 70px auto 88px;
 }
 
 .aboutus-wrapper {
@@ -79,12 +79,11 @@
   border: 1px solid #1f64ff;
   background: #fff;
 }
-
+/* 
 .about-us {
-  margin-top: 76px;
-}
+} */
 
-.about-us h2 {
+.about-us > h2 {
   color: #002;
   margin-bottom: 20px;
   font-size: 48px;
@@ -94,11 +93,11 @@
 }
 
 .about-us-cont {
-  margin-top: 100px;
+  margin-top: 29px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 32px;
+  gap: 64px;
 }
 
 .about-us-cont p {
@@ -107,8 +106,27 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-family: "Lato", sans-serif;
+  /* display: flex;
+  align-items: center; */
+}
+
+.aboutus-cont-head {
+  margin: 0px auto 30px;
   display: flex;
+  gap: 30px;
+  flex-direction: column;
   align-items: center;
+  width: fit-content;
+}
+
+.aboutus-cont-head > h2 {
+  color: #002;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-family: "Lato", sans-serif;
 }
 
 .about-us-points {

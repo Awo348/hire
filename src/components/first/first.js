@@ -8,7 +8,7 @@ const First = () => {
       <div className="first-text">
         <div>
           <h2>
-            Send out your first <br /> Rate It today!
+            Start Now <br /> Signup today!
           </h2>
           <button>Try for free </button>
         </div>

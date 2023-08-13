@@ -108,3 +108,25 @@
 .other-tech-duration div input {
   width: 140px;
 }
+
+@media screen and (max-width: 600px) {
+  .step-four-wrapper > h2 {
+    margin: 40px 0px 20px;
+    font-size: 20px;
+  }
+
+  .other-sec-grade,
+  .other-tech-form {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .other-tech-form input {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .techni-double {
+    flex-direction: column;
+  }
+}

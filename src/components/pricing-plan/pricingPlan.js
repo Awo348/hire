@@ -39,7 +39,7 @@ const PricingPlan = () => {
             <div>
               <p>1</p>
             </div>
-            <div className="green">
+            <div>
               <p>9000</p>
             </div>
             <div className="onions">
