@@ -10,6 +10,7 @@ import AdminPageOne from "./pages/admin/admin-page1/adminPage1";
 import Register from "./pages/register/register";
 import Advertise from "./pages/advertise/advertise";
 import Works from "./pages/works/works";
+import RegisterMulti from "./pages/register-multi/registerMulti";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/register-multi" element={<RegisterMulti />} />
         <Route path="/admin" element={<AdminPageOne />} />
         <Route path="/advertise" element={<Advertise />} />
         <Route path="/works" element={<Works />} />
