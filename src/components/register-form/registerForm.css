@@ -43,3 +43,9 @@
   background: #1a3ec1;
   color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+  .register-form-head {
+    width: 95%;
+  }
+}

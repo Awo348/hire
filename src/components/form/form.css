@@ -48,3 +48,9 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
+
+@media screen and (max-width: 500px) {
+  .form-group-container {
+    width: 95%;
+  }
+}
