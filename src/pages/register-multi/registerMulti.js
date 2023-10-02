@@ -7,9 +7,41 @@ import StepFive from "../../components/step-five/stepFive";
 import StepSix from "../../components/step-six/stepSix";
 import StepSeven from "../../components/step-seven/stepSeven";
 import StepEight from "../../components/step-eight/stepEight";
+import Header from "../../components/header/header";
+// import Footer from "../../components/footer/footer";
+import Layout from "../../utils/layout/layout";
 
 const RegisterMulti = () => {
   const [count, setCount] = useState(1);
+  // const [formData, setFormData] = useState({
+  //   img: "",
+  //   title: "",
+  //   gender: "",
+  //   maritalStatus: "",
+  //   town: "",
+  //   district: "",
+  //   state: "",
+  //   nationality: "",
+  //   dob: "",
+  //   phoneMobile: "",
+  //   phoneHome: "",
+  //   streetAddress: "",
+  //   age: "",
+  //   nationalID: "",
+  //   previousEmployment: "",
+  //   currentEmployment: "",
+  //   skills: "",
+  //   otherQualifications: "",
+  //   references: "",
+  //   coverLetter: "",
+  //   certificates: "",
+  //   technicalVocation: "",
+  //   tertiaryQualifications: "",
+  //   investigation: false,
+  //   investigationReason: "",
+  //   prosecuted: false,
+  //   prosecutedReason: "",
+  // });
   const add = () => {
     setCount(count + 1);
   };
@@ -46,7 +78,13 @@ const RegisterMulti = () => {
         <StepOne />;
     }
   };
-  return <>{loadMultiStep()}</>;
+  return (
+    <>
+      <Header />
+      <Layout>{loadMultiStep()}</Layout>
+      {/* <Footer /> */}
+    </>
+  );
 };
 
 export default RegisterMulti;

@@ -26,13 +26,18 @@ const Header = () => {
               <div className="header-nav">
                 <div className="header-nav-links">
                   <NavLink to="/">Home</NavLink>
-                  <NavLink to="/vacancies">Vacanies</NavLink>
-                  <NavLink to="/career">Career Advice</NavLink>
+                  <NavLink to="/find-jobs">Find Jobs</NavLink>
+                  <NavLink to="/works">How it Works</NavLink>
                   <NavLink to="/about">About us</NavLink>
-                  <NavLink to="/advertise">Advertise</NavLink>
+                  <NavLink to="/contact">Contact Us</NavLink>
                 </div>
                 <div className="header-buttons">
-                  <button>Login</button>
+                  <button
+                    onClick={() => {
+                      navigate("/login");
+                    }}>
+                    Login
+                  </button>
                   <button
                     onClick={() => {
                       navigate("/register");

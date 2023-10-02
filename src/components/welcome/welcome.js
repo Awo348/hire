@@ -1,6 +1,6 @@
 import React from "react";
 import "./welcome.css";
-import Type from "../../assets/jobs-types.png";
+// import Type from "../../assets/jobs-types.png";
 import Layout from "../../utils/layout/layout";
 import Recruit from "../../assets/recruiting.png";
 import Jobs from "../../assets/job.svg";
@@ -23,9 +23,9 @@ const Welcome = () => {
         <div className="welcome-container">
           <div className="welcome-banner">
             <div className="welcome-place">
-              <h2>One million success job stories.</h2>
+              <h2>You apply we place</h2>
               <span>
-                <Animation text="Start yours today." delay={300} />
+                <Animation text="Helping you find your dreams." delay={100} />
               </span>
             </div>
             <div className="welcome-advert">
@@ -86,9 +86,9 @@ const Welcome = () => {
           </div>
           <ManySolution />
           {/* <MoreJobs /> */}
-          <div className="welcome-type">
+          {/* <div className="welcome-type">
             <img src={Type} alt="type" />
-          </div>
+          </div> */}
           <FeaturedCircular />
           {/* <Profilling /> */}
         </div>

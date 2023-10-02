@@ -1,7 +1,7 @@
 import React from "react";
 import "./manySolution.css";
 import SingleSolution from "../single-solution/singleSolution";
-import { jobs } from "../../utils/data/data";
+import { jobCategories } from "../../utils/data/data";
 
 const ManySolution = () => {
   return (
@@ -10,8 +10,8 @@ const ManySolution = () => {
         One Platform Many <span>Solutions</span>
       </h2>
       <div className="many-solution-wrapper">
-        {jobs?.map((item, index) => {
-          return <SingleSolution key={index} img={item.img} name={item.name} />;
+        {jobCategories?.map((item, index) => {
+          return <SingleSolution key={index} img={item.img} name={item.name} number={item.number} />;
         })}
       </div>
     </div>
