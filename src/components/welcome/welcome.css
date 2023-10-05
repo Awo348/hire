@@ -28,8 +28,7 @@
 .welcome-banner {
   width: 100%;
   padding: 100px 0px 80px;
-  width: 95%;
-  margin: 0px auto;
+  margin-top: 0px;
   box-sizing: border-box;
 }
 

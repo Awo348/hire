@@ -1,120 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "./pricingPlan.css";
-// import Popular from "../../assets/popular.svg";
-import SinglePricing from "../single-pricing/singlePricing";
+import Line from "../../svg-components/line/line";
+import Popular from "../../assets/popular.svg";
 
 const PricingPlan = () => {
-  const [plan, setPlan] = useState("1 Month with CV access");
   return (
     <div className="pricing-plan-container">
-      <h2>Price Packages</h2>
-      <div className="pricing-plan-wrapper">
-        <div className="pricing-plan-body">
-          <div className="pricing-plan-head">
-            <h2
-              onClick={() => {
-                setPlan("1 Month with CV access");
-              }}
-              className={plan === "1 Month with CV access" ? "active" : ""}>
-              1 Month with CV access
-            </h2>
-            <h2
-              onClick={() => {
-                setPlan("1 Month with No CV access");
-              }}
-              className={plan === "1 Month with No CV access" ? "active" : ""}>
-              1 Month with No CV access
-            </h2>
-            <h2
-              onClick={() => {
-                setPlan("1 Year with CV access");
-              }}
-              className={plan === "1 Year with CV access" ? "active" : ""}>
-              1 Year with CV access
-            </h2>
-            <h2
-              onClick={() => {
-                setPlan("1 Year with No CV access");
-              }}
-              className={plan === "1 Year with No CV access" ? "active" : ""}>
-              1 Year with No CV access
-            </h2>
-          </div>
-          {plan === "1 Year with No CV access" ? (
-            <>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={5} amount={25000} />
-                <SinglePricing plan={plan} number={6} amount={30000} />
-                <SinglePricing plan={plan} number={7} amount={35000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={8} amount={40000} />
-                <SinglePricing plan={plan} number={9} amount={45000} />
-                <SinglePricing plan={plan} number={10} amount={50000} />
-              </div>
-            </>
-          ) : plan === "1 Year with CV access" ? (
-            <>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={5} amount={40000} />
-                <SinglePricing plan={plan} number={6} amount={48000} />
-                <SinglePricing plan={plan} number={7} amount={56000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={8} amount={64000} />
-                <SinglePricing plan={plan} number={9} amount={72000} />
-                <SinglePricing plan={plan} number={10} amount={80000} />
-              </div>
-            </>
-          ) : plan === "1 Month with CV access" ? (
-            <>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={1} amount={9000} />
-                <SinglePricing plan={plan} number={2} amount={18000} />
-                <SinglePricing plan={plan} number={3} amount={27000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={4} amount={36000} />
-                <SinglePricing plan={plan} number={5} amount={45000} />
-                <SinglePricing plan={plan} number={6} amount={54000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={7} amount={60000} />
-                <SinglePricing plan={plan} number={8} amount={72000} />
-                <SinglePricing plan={plan} number={9} amount={81000} />
-              </div>
-            </>
-          ) : plan === "1 Month with No CV access" ? (
-            <>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={1} amount={6000} />
-                <SinglePricing plan={plan} number={2} amount={12000} />
-                <SinglePricing plan={plan} number={3} amount={18000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={4} amount={24000} />
-                <SinglePricing plan={plan} number={5} amount={30000} />
-                <SinglePricing plan={plan} number={6} amount={36000} />
-              </div>
-              <div className="pricing-plan-cont">
-                <SinglePricing plan={plan} number={7} amount={42000} />
-                <SinglePricing plan={plan} number={8} amount={48000} />
-                <SinglePricing plan={plan} number={9} amount={54000} />
-              </div>
-            </>
-          ) : null}
+      <div className="pricing-plan-header">
+        <h2>Select Pricing Plan</h2>
+        <div>
+          <Line />
         </div>
-        {/* <div className="pricing-plan-body">
-          <h2>1 Month with No CV access</h2>
-        </div>
-        <div className="pricing-plan-body">
-          <h2>1 Year with CV access</h2>
-        </div>
-        <div className="pricing-plan-body">
-          <h2>1 Year with No CV access</h2>
-        </div> */}
       </div>
-      {/* <div className="pricing-plan-table">
+      <div className="pricing-plan-table">
         <div className="pricing-table-head">
           <div>
             <p>Number of Jobs</p>
@@ -338,7 +236,7 @@ const PricingPlan = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

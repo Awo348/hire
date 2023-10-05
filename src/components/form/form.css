@@ -1,11 +1,11 @@
 .form-group-container {
-  width: 100%;
-  margin: 40px auto 0px;
+  width: 40%;
+  margin: 40px auto;
 }
 
 .form-groups {
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 34px;
 }
 
 .form-groups label {

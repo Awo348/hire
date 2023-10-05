@@ -7,9 +7,6 @@ import StepFive from "../../components/step-five/stepFive";
 import StepSix from "../../components/step-six/stepSix";
 import StepSeven from "../../components/step-seven/stepSeven";
 import StepEight from "../../components/step-eight/stepEight";
-import Header from "../../components/header/header";
-// import Footer from "../../components/footer/footer";
-import Layout from "../../utils/layout/layout";
 
 const RegisterMulti = () => {
   const [count, setCount] = useState(4);
@@ -78,13 +75,7 @@ const RegisterMulti = () => {
         <StepOne />;
     }
   };
-  return (
-    <>
-      <Header />
-      <Layout>{loadMultiStep()}</Layout>
-      {/* <Footer /> */}
-    </>
-  );
+  return <>{loadMultiStep()}</>;
 };
 
 export default RegisterMulti;

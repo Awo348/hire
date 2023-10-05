@@ -1,20 +1,14 @@
 import React from "react";
 import "./singleSolution.css";
-import { useNavigate } from "react-router-dom";
 
-const SingleSolution = ({ name, img, number }) => {
-  const navigate = useNavigate();
+const SingleSolution = ({ name, img }) => {
   return (
-    <div
-      className="single-solution-container"
-      onClick={() => {
-        navigate(`/job-type?category=${name}`);
-      }}>
+    <div className="single-solution-container">
       <div>
         <img src={img} alt="single" />
         <div>
           <h2>{name}</h2>
-          <p>{number} Jobs Available</p>
+          <p>237 Jobs Available</p>
         </div>
       </div>
     </div>
