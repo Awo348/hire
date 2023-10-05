@@ -12,7 +12,7 @@ import Header from "../../components/header/header";
 import Layout from "../../utils/layout/layout";
 
 const RegisterMulti = () => {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(4);
   // const [formData, setFormData] = useState({
   //   img: "",
   //   title: "",

@@ -28,6 +28,7 @@ const StepTwo = ({ setFormData, formData }) => {
           <h2>Legal</h2>
         </div>
       </div>
+
       <div className="personal-details-body">
         <div className="add-profile-double">
           <div className="add-profile-group">

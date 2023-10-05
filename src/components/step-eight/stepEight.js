@@ -10,11 +10,17 @@ const StepEight = ({ add, minus }) => {
       <div className="candidate-sign-up-step-24">
         <div className="rectangle-container">
           <div className="group-child2" />
-          <div className="have-you-ever">Have you ever been subject to any type of investigation or inquiry for any offense within the last 10 years</div>
+          <div className="have-you-ever">
+            Have you ever been subject to any type of investigation or inquiry
+            for any offense within the last 10 years
+          </div>
         </div>
         <div className="group-div">
           <div className="group-child3" />
-          <div className="have-you-ever1">Have you ever been prosecuted before a court of law and found guilty for any offense within the last 10 years?</div>
+          <div className="have-you-ever1">
+            Have you ever been prosecuted before a court of law and found guilty
+            for any offense within the last 10 years?
+          </div>
         </div>
         <div className="candidate-sign-up-step-24-item" />
         <div className="candidate-sign-up-step-24-inner" />
@@ -69,8 +75,14 @@ const StepEight = ({ add, minus }) => {
             <div className="group-child18" />
           </div>
           <div className="i-the-applicant-container">
-            <p className="self-declaration">I, the applicant of this profile, hereby acknowledge that all details given for this application are true and</p>
-            <p className="self-declaration">accurate and that i have not willfully changed or created virtual information.</p>
+            <p className="self-declaration">
+              I, the applicant of this profile, hereby acknowledge that all
+              details given for this application are true and
+            </p>
+            <p className="self-declaration">
+              accurate and that i have not willfully changed or created virtual
+              information.
+            </p>
           </div>
         </div>
         <div className="rectangle-parent10">
@@ -81,7 +93,11 @@ const StepEight = ({ add, minus }) => {
           <div className="group-child20" />
           <div className="upload">Upload</div>
         </div>
-        <img className="main-page2-edited-2023-page-00" alt="upload" src={Upload} />
+        <img
+          className="main-page2-edited-2023-page-00"
+          alt="upload"
+          src={Upload}
+        />
       </div>
     </UserMulti>
   );

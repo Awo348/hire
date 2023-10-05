@@ -1,112 +1,107 @@
 import React from "react";
 import "./stepFive.css";
-import UserMulti from "../../utils/user-multi/userMulti";
-import Plus from "../../svg-components/plus/plus";
+// import UserMulti from "../../utils/user-multi/userMulti";
+import Plus from "../../assets/plus.png";
+import EmploymentHistory from "../../svg-components/employmentHistory";
+import Qualification from "../../svg-components/qualification";
+import Legal from "../../svg-components/legal";
+import Personal from "../../svg-components/personal";
 
 const StepFive = ({ add, minus }) => {
   return (
-    <UserMulti fullStep={false} add={add} minus={minus}>
-      <div className="step-four-container">
-        <div className="step-four-wrapper">
-          <h2>Diploma Qualifications</h2>
-          <div className="secondary-edu-type">
-            <div>
-              <h2>Diploma</h2>
-              <input type="checkbox" />
-            </div>
-            <div>
-              <h2>Advance/graduate Diploma</h2>
-              <input type="checkbox" />
-            </div>
-            <div>
-              <h2>Advance Diploma</h2>
-              <input type="checkbox" />
-            </div>
-            <div>
-              <h2>Post Graduate Diploma</h2>
-              <input type="checkbox" />
-            </div>
-            <div>
-              <h2>Others</h2>
-              <input type="checkbox" />
-            </div>
-          </div>
-          <div className="other-tech-form">
-            <p>University/Awarding Body</p>
-            <input type="text" />
-          </div>
-          <div className="techni-double">
-            <div className="other-tech-form">
-              <p>Qualification Obtained</p>
-              <input type="text" />
-            </div>
-            <div className="other-tech-form">
-              <p>Year</p>
-              <input type="text" />
-            </div>
-          </div>
-          <div className="other-tech-form">
-            <p>Duration</p>
-            <div className="other-tech-duration">
-              <div>
-                <p>From</p>
-                <input type="text" placeholder="month/year" />
-              </div>
-              <div>
-                <p>To</p>
-                <input type="text" placeholder="month/year" />
-              </div>
-            </div>
-          </div>
-          <div className="other-tech-form">
-            <p>Class/Level/Division</p>
-            <input type="text" />
-          </div>
-          <div className="add-new-cert">
-            <Plus />
-            <p>Add another certificate</p>
-          </div>
+    <div className="stepfive" fullStep={false} add={add} minus={minus}>
+      <div className="personal-details-header">
+        <div className="personal-details-single active">
+          <Personal color="#0A65CC" />
+          <h2>Personal Information</h2>
         </div>
-        <div className="step-four-wrapper">
-          <h2>Tertiary Qualifications</h2>
-          <div className="other-tech-form">
-            <p>University/Awarding Body</p>
-            <input type="text" />
-          </div>
-          <div className="techni-double">
-            <div className="other-tech-form">
-              <p>Qualification Obtained</p>
-              <input type="text" />
+        <div className="personal-details-single">
+          <EmploymentHistory color="black" />
+          <h2>Employment History</h2>
+        </div>
+        <div className="personal-details-single">
+          <Qualification color="black" />
+          <h2>Qualification</h2>
+        </div>
+        <div className="personal-details-single">
+          <Legal color="black" />
+          <h2>Legal</h2>
+        </div>
+      </div>
+      <div className="stepfive-container">
+        <div className="secondary-reference">
+          <h1>OTHER SECONDARY REFERENCES</h1>
+          <div className="pass-fail">
+            <div className="pass">
+              <label>Pass</label>
+              <input type="checkbox" />
             </div>
-            <div className="other-tech-form">
-              <p>Year</p>
-              <input type="text" />
+            <div className="fail">
+              <label>fail</label>
+              <input type="checkbox" />
             </div>
           </div>
-          <div className="other-tech-form">
-            <p>Duration</p>
-            <div className="other-tech-duration">
-              <div>
-                <p>From</p>
-                <input type="text" placeholder="month/year" />
+          <div className="position-company">
+            <div className="position">
+              <div className="position-held-name">
+                <label>Certificate</label>
+                <input type="text" placeholder="local" />
               </div>
-              <div>
-                <p>To</p>
-                <input type="text" placeholder="month/year" />
+              <div className="company-address">
+                <label>Country</label>
+                <input type="text" placeholder="New York" />
+              </div>
+            </div>
+            <div className="position-district">
+              <div className="position-name">
+                <label>Examining Body</label>
+                <input type="text" placeholder="" />
+              </div>
+              <div className="company-district">
+                <label> Year (mm/yy)</label>
+                <input type="text" placeholder="Washington" />
               </div>
             </div>
           </div>
-          <div className="other-tech-form">
-            <p>Class/Level/Division</p>
-            <input type="text" />
-          </div>
-          <div className="add-new-cert">
-            <Plus />
-            <p>Add another certificate</p>
+          <button className="add-certificate">
+            <img src={Plus} alt="" /> Add another certificate
+          </button>
+        </div>
+        <div className="technical">
+          <h>TECHNICAL VOCATIONAL EDUCATION</h>
+          <div className="position-company">
+            <div className="position">
+              <div className="position-held-name">
+                <label>Certificate</label>
+                <input type="text" placeholder="local" />
+              </div>
+              <div className="company-address">
+                <label>Country</label>
+                <input type="text" placeholder="New York" />
+              </div>
+              <div className="company-address">
+                <label>Country</label>
+                <input type="text" placeholder="New York" />
+              </div>
+            </div>
+            <div className="position-district">
+              <div className="position-name">
+                <label>Examining Body</label>
+                <input type="text" placeholder="" />
+              </div>
+              <div className="company-district">
+                <label> Year (mm/yy)</label>
+                <input type="text" placeholder="Washington" />
+              </div>
+              <div className="company-address">
+                <label>Country</label>
+                <input type="text" placeholder="New York" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </UserMulti>
+    </div>
   );
 };
 
